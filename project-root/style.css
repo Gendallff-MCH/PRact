@@ -1,0 +1,17 @@
+
+/*сообщение пройгрыша*/
+body {
+    background-image: url(imege.png);
+    
+        background: url(Fonee.jpg)
+      
+}    
+      
+   
+
+      /*расположение по центру*/
+canvas {
+    display: block;
+    margin: 0 auto;
+    }
+    
