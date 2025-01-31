@@ -56,8 +56,16 @@ function direction(event){
 
 function eatTail(head,arr){
     for(let i = 0; i < arr.length; i++){
-        if(head.x == arr[i].x && head.y == arr[i].y)
-            clearInterval(game);
+        if(head.x == arr[i].x && head.y == arr[i].y){ 
+             clearInterval(game);
+            let isBoss = confirm("Game over");
+            if (isBoss == true) {
+             location.reload()
+                } else {
+                    //
+                }
+            
+           
            
     }
 }
