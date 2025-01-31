@@ -1,10 +1,6 @@
 
 
 
-
-
-
-
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
@@ -130,7 +126,7 @@ snake.unshift(newHead)
 
 let game = setInterval(drawGame, a);
 
-// сообщение о пройгрыше
+
 
 
 
